@@ -1,0 +1,12 @@
+[theme]
+
+base = "dark"
+
+backgroundColor = '#000000'
+
+[ui]
+sidebarMode = "expanded"
+hideTopBar = true
+
+[client]
+toolbarMode="minimal"

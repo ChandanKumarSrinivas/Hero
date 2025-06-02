@@ -41,12 +41,12 @@ st.markdown(
     }
     p{
         font-family: 'Mona sans', arial;
-        font-size: 23px;
+        font-size: 23px !important;
         text-align: justify;
         }
     .font {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
+        font-size: 50px !important;
         line-height: 1.6;
     }
     .para{
