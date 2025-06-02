@@ -1,0 +1,555 @@
+[
+  {
+    "Name": "Agra Fort",
+    "Type": "UNESCO, Cultural, Fort",
+    "Counts": 2200000,
+    "latitude": 27.1798258,
+    "longitude": 78.0208223
+  },
+  {
+    "Name": "Ajanta Caves",
+    "Type": "UNESCO, Cultural, Heritage, Caves",
+    "Counts": 300000,
+    "latitude": 20.5524497,
+    "longitude": 75.6995312
+  },
+  {
+    "Name": "Ellora Caves",
+    "Type": "UNESCO, Cultural, Heritage, Caves",
+    "Counts": 500000,
+    "latitude": 20.0267525,
+    "longitude": 75.1775152
+  },
+  {
+    "Name": "Taj Mahal",
+    "Type": "UNESCO, Cultural, Monument",
+    "Counts": 6115000,
+    "latitude": 27.1750075,
+    "longitude": 78.0421013
+  },
+  {
+    "Name": "Group of Monuments at Mahabalipuram",
+    "Type": "UNESCO, Cultural, Monuments",
+    "Counts": 500000,
+    "latitude": 12.6208,
+    "longitude": 80.1945
+  },
+  {
+    "Name": "Sun Temple, Konârak",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 400000,
+    "latitude": 19.53,
+    "longitude": 86.08
+  },
+  {
+    "Name": "Churches and Convents of Goa",
+    "Type": "UNESCO, Cultural, Religious",
+    "Counts": 700000,
+    "latitude": 15.5034829,
+    "longitude": 73.9118649
+  },
+  {
+    "Name": "Fatehpur Sikri",
+    "Type": "UNESCO, Cultural, Historical City",
+    "Counts": 1500000,
+    "latitude": 27.0911655,
+    "longitude": 77.6623984
+  },
+  {
+    "Name": "Group of Monuments at Hampi",
+    "Type": "UNESCO, Cultural, Heritage",
+    "Counts": 1000000,
+    "latitude": 15.3294088,
+    "longitude": 76.4755382
+  },
+  {
+    "Name": "Group of Monuments at Pattadakal",
+    "Type": "UNESCO, Cultural, Monuments",
+    "Counts": 200000,
+    "latitude": 15.5705,
+    "longitude": 75.4853
+  },
+  {
+    "Name": "Elephanta Caves",
+    "Type": "UNESCO, Cultural, Heritage, Caves",
+    "Counts": 350000,
+    "latitude": 18.9630478,
+    "longitude": 72.931902
+  },
+  {
+    "Name": "Great Living Chola Temples",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 300000,
+    "latitude": 12.2597005,
+    "longitude": 77.1441138
+  },
+  {
+    "Name": "Khajuraho Group of Monuments",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 400000,
+    "latitude": 24.8318,
+    "longitude": 79.9199
+  },
+  {
+    "Name": "Buddhist Monuments at Sanchi",
+    "Type": "UNESCO, Cultural, Religious",
+    "Counts": 150000,
+    "latitude": 23.4793738,
+    "longitude": 77.7397466
+  },
+  {
+    "Name": "Humayun's Tomb",
+    "Type": "UNESCO, Cultural, Tomb",
+    "Counts": 2000000,
+    "latitude": 28.5932856,
+    "longitude": 77.2506468
+  },
+  {
+    "Name": "Qutb Minar and its Monuments",
+    "Type": "UNESCO, Cultural, Monument",
+    "Counts": 3352000,
+    "latitude": 28.5225,
+    "longitude": 77.1855
+  },
+  {
+    "Name": "Mountain Railways of India",
+    "Type": "UNESCO, Cultural, Engineering",
+    "Counts": 0,
+    "latitude": 26.4048,
+    "longitude": 88.2736
+  },
+  {
+    "Name": "Mahabodhi Temple Complex",
+    "Type": "UNESCO, Cultural, Religious",
+    "Counts": 1200000,
+    "latitude": 24.6954502,
+    "longitude": 84.9913779
+  },
+  {
+    "Name": "Rock Shelters of Bhimbetka",
+    "Type": "UNESCO, Cultural, Heritage",
+    "Counts": 0,
+    "latitude": 22.9384007,
+    "longitude": 77.6133286
+  },
+  {
+    "Name": "Champaner-Pavagadh Archaeological Park",
+    "Type": "UNESCO, Cultural, Archaeological Site",
+    "Counts": 60000,
+    "latitude": 22.4832847,
+    "longitude": 73.5330746
+  },
+  {
+    "Name": "Red Fort Complex",
+    "Type": "UNESCO, Cultural, Fort",
+    "Counts": 4029000,
+    "latitude": 28.6573927,
+    "longitude": 77.2412735
+  },
+  {
+    "Name": "Jantar Mantar (Jaipur)",
+    "Type": "UNESCO, Cultural, Observatory",
+    "Counts": 150000,
+    "latitude": 28.6271,
+    "longitude": 77.2166
+  },
+  {
+    "Name": "Hill Forts of Rajasthan",
+    "Type": "UNESCO, Cultural, Forts",
+    "Counts": 0,
+    "latitude": 24.5260,
+    "longitude": 74.3846
+  },
+  {
+    "Name": "Rani-ki-Vav",
+    "Type": "UNESCO, Cultural, Stepwell",
+    "Counts": 120000,
+    "latitude": 23.8589305,
+    "longitude": 72.10173
+  },
+  {
+    "Name": "Nalanda Mahavihara",
+    "Type": "UNESCO, Cultural, Educational Site",
+    "Counts": 50000,
+    "latitude": 25.1281352,
+    "longitude": 85.4455941
+  },
+  {
+    "Name": "Le Corbusier's Work in Chandigarh",
+    "Type": "UNESCO, Cultural, Modern Architecture",
+    "Counts": 0,
+    "latitude": 30.74,
+    "longitude": 76.79
+  },
+  {
+    "Name": "Historic City of Ahmedabad",
+    "Type": "UNESCO, Cultural, Urban Heritage",
+    "Counts": 0,
+    "latitude": 20.0225,
+    "longitude": 72.5714
+  },
+  {
+    "Name": "Victorian Gothic and Art Deco Mumbai",
+    "Type": "UNESCO, Cultural, Architecture",
+    "Counts": 0,
+    "latitude": 18.5546,
+    "longitude": 72.4948
+  },
+  {
+    "Name": "Jaipur City",
+    "Type": "UNESCO, Cultural, Urban Heritage",
+    "Counts": 0,
+    "latitude": 26.9154576,
+    "longitude": 75.8189817
+  },
+  {
+    "Name": "Dholavira",
+    "Type": "UNESCO, Cultural, Archaeological Site",
+    "Counts": 40000,
+    "latitude": 23.8889008,
+    "longitude": 70.2114507
+  },
+  {
+    "Name": "Ramappa Temple",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 80000,
+    "latitude": 18.2593042,
+    "longitude": 79.9432497
+  },
+  {
+    "Name": "Santiniketan",
+    "Type": "UNESCO, Cultural, Educational & Cultural",
+    "Counts": 300000,
+    "latitude": 6.1212013,
+    "longitude": -75.6275627
+  },
+  {
+    "Name": "Kaziranga National Park",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 150000,
+    "latitude": 26.6581046,
+    "longitude": 93.3927441
+  },
+  {
+    "Name": "Keoladeo National Park",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 50000,
+    "latitude": 27.1650571,
+    "longitude": 77.5186504
+  },
+  {
+    "Name": "Manas Wildlife Sanctuary",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 40000,
+    "latitude": 26.8102,
+    "longitude": 91.2395
+  },
+  {
+    "Name": "Nanda Devi & Valley of Flowers NP",
+    "Type": "UNESCO, Natural, National Parks",
+    "Counts": 40000,
+    "latitude": 30.3687,
+    "longitude": 79.5815
+  },
+  {
+    "Name": "Sundarbans National Park",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 50000,
+    "latitude": 21.9497,
+    "longitude": 89.1833
+  },
+  {
+    "Name": "Western Ghats",
+    "Type": "UNESCO, Natural, Biodiversity Hotspot",
+    "Counts": 0,
+    "latitude": 10.166,
+    "longitude": 77.058
+  },
+  {
+    "Name": "Great Himalayan National Park",
+    "Type": "UNESCO, Natural, National Park",
+    "Counts": 0,
+    "latitude": 31.7968335,
+    "longitude": 77.7239269
+  },
+  {
+    "Name": "Khangchendzonga National Park",
+    "Type": "UNESCO, Mixed",
+    "Counts": 0,
+    "latitude": 27.6558151,
+    "longitude": 88.285737
+  },
+  {
+    "Name": "Golden Temple",
+    "Type": "Religious, Temple",
+    "Counts": 6000000,
+    "latitude": 31.6199787,
+    "longitude": 74.8765281
+  },
+  {
+    "Name": "Meenakshi Amman Temple",
+    "Type": "Religious, Temple",
+    "Counts": 3000000,
+    "latitude": 9.9195433,
+    "longitude": 78.1188334
+  },
+  {
+    "Name": "Kashi Vishwanath Temple",
+    "Type": "Religious, Temple",
+    "Counts": 3000000,
+    "latitude": 25.3108218,
+    "longitude": 83.0106679
+  },
+  {
+    "Name": "Jagannath Temple",
+    "Type": "Religious, Temple",
+    "Counts": 1200000,
+    "latitude": 23.3168885,
+    "longitude": 85.2818038
+  },
+  {
+    "Name": "Vaishno Devi Temple",
+    "Type": "Religious, Temple",
+    "Counts": 10000000,
+    "latitude": 33.0301412,
+    "longitude": 74.9479292
+  },
+  {
+    "Name": "Somnath Temple",
+    "Type": "Religious, Temple",
+    "Counts": 1000000,
+    "latitude": 20.8877577,
+    "longitude": 70.4013836
+  },
+  {
+    "Name": "Ramanathaswamy Temple",
+    "Type": "Religious, Temple",
+    "Counts": 3000000,
+    "latitude": 9.2880968,
+    "longitude": 79.3173756
+  },
+  {
+    "Name": "Akshardham Temple",
+    "Type": "Religious, Temple",
+    "Counts": 2500000,
+    "latitude": 21.754098,
+    "longitude": 72.1417788
+  },
+  {
+    "Name": "Brihadeeswarar Temple",
+    "Type": "Religious, Temple",
+    "Counts": 800000,
+    "latitude": 10.78258,
+    "longitude": 79.1313819
+  },
+  {
+    "Name": "Kedarnath and Badrinath",
+    "Type": "Religious, Temple",
+    "Counts": 1500000,
+    "latitude": 30.7351,
+    "longitude": 79.0669
+  },
+  {
+    "Name": "Amber Fort",
+    "Type": "Historical, Fort",
+    "Counts": 2000000,
+    "latitude": 26.9863104,
+    "longitude": 75.8506607
+  },
+  {
+    "Name": "Mehrangarh Fort",
+    "Type": "Historical, Fort",
+    "Counts": 1000000,
+    "latitude": 26.2995407,
+    "longitude": 73.0195132
+  },
+  {
+    "Name": "Gwalior Fort",
+    "Type": "Historical, Fort",
+    "Counts": 700000,
+    "latitude": 26.2235995,
+    "longitude": 78.1665381
+  },
+  {
+    "Name": "Golconda Fort",
+    "Type": "Historical, Fort",
+    "Counts": 1200000,
+    "latitude": 17.3833665,
+    "longitude": 78.4010991
+  },
+  {
+    "Name": "Mysore Palace",
+    "Type": "Historical, Palace",
+    "Counts": 2500000,
+    "latitude": 12.3052196,
+    "longitude": 76.6553846
+  },
+  {
+    "Name": "City Palace, Udaipur",
+    "Type": "Historical, Palace",
+    "Counts": 1000000,
+    "latitude": 24.5760597,
+    "longitude": 73.6835668
+  },
+  {
+    "Name": "Red Fort",
+    "Type": "Historical, Fort",
+    "Counts": 4029000,
+    "latitude": 28.6560809,
+    "longitude": 77.2407959
+  },
+  {
+    "Name": "Chittorgarh Fort",
+    "Type": "Historical, Fort",
+    "Counts": 800000,
+    "latitude": 24.8817143,
+    "longitude": 74.6466948
+  },
+  {
+    "Name": "Jaisalmer Fort",
+    "Type": "Historical, Fort",
+    "Counts": 500000,
+    "latitude": 26.9127655,
+    "longitude": 70.9124933
+  },
+  {
+    "Name": "Kumbhalgarh Fort",
+    "Type": "Historical, Fort",
+    "Counts": 400000,
+    "latitude": 25.1494488,
+    "longitude": 73.5802605
+  },
+  {
+    "Name": "Indian Museum",
+    "Type": "Museum",
+    "Counts": 200000,
+    "latitude": 22.5575863,
+    "longitude": 88.3510335
+  },
+  {
+    "Name": "National Museum",
+    "Type": "Museum",
+    "Counts": 300000,
+    "latitude": 28.6199,
+    "longitude": 77.2193
+  },
+  {
+    "Name": "Salar Jung Museum",
+    "Type": "Museum",
+    "Counts": 400000,
+    "latitude": 17.371392,
+    "longitude": 78.4801498
+  },
+  {
+    "Name": "Chhatrapati Shivaji Maharaj Museum",
+    "Type": "Museum",
+    "Counts": 350000,
+    "latitude": 18.9268772,
+    "longitude": 72.8325921
+  },
+  {
+    "Name": "Government Museum",
+    "Type": "Museum",
+    "Counts": 250000,
+    "latitude": 11.413229,
+    "longitude": 76.6914353
+  },
+  {
+    "Name": "Jim Corbett National Park",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 50000,
+    "latitude": 29.5574752,
+    "longitude": 78.842495
+  },
+  {
+    "Name": "Ranthambore National Park",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 100000,
+    "latitude": 25.9776,
+    "longitude": 76.5533
+  },
+  {
+    "Name": "Bandhavgarh National Park",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 80000,
+    "latitude": 23.6444125,
+    "longitude": 81.0245023
+  },
+  {
+    "Name": "Periyar Wildlife Sanctuary",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 70000,
+    "latitude": 9.5976585,
+    "longitude": 77.1729756
+  },
+  {
+    "Name": "Sundarbans Mangrove Forest",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 50000,
+    "latitude": 22.1321,
+    "longitude": 88.8869
+  },
+  {
+    "Name": "Valley of Flowers National Park",
+    "Type": "Natural, National Park",
+    "Counts": 40000,
+    "latitude": 30.7430879,
+    "longitude": 79.6177253
+  },
+  {
+    "Name": "Backwaters of Kerala",
+    "Type": "Natural, Waterbody",
+    "Counts": 0,
+    "latitude": 9.51,
+    "longitude": 76.21
+  },
+  {
+    "Name": "Himalayan Ranges",
+    "Type": "Natural, Mountain Range",
+    "Counts": 0,
+    "latitude": 28.5983,
+    "longitude": 83.9310
+  },
+  {
+    "Name": "Thar Desert",
+    "Type": "Natural, Desert",
+    "Counts": 0,
+    "latitude": 27.5,
+    "longitude": 70.0
+  },
+  {
+    "Name": "Lotus Temple",
+    "Type": "Modern, Temple",
+    "Counts": 4000000,
+    "latitude": 34.0258457,
+    "longitude": -118.3114643
+  },
+  {
+    "Name": "Bandra-Worli Sea Link",
+    "Type": "Modern, Infrastructure",
+    "Counts": 0,
+    "latitude": 19.0316246,
+    "longitude": 72.8159714
+  },
+  {
+    "Name": "Statue of Unity",
+    "Type": "Modern, Monument",
+    "Counts": 1500000,
+    "latitude": 21.837977,
+    "longitude": 73.719164
+  },
+  {
+    "Name": "Vidhana Soudha",
+    "Type": "Modern, Government Building",
+    "Counts": 0,
+    "latitude": 12.9797454,
+    "longitude": 77.5906167
+  },
+  {
+    "Name": "Cyber City, Gurugram",
+    "Type": "Modern, IT Hub",
+    "Counts": 0,
+    "latitude": 28.4980613,
+    "longitude": 77.0891604
+  }
+]

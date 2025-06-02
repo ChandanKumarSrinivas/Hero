@@ -53,7 +53,7 @@ st.markdown(
         height: 100vh;
         position: sticky;
         top: 0;
-        background-color: #000000;  /* 🎨 Your custom background color */
+        background-color: #000000;
         padding: 0px;
         color: white;
         # display: none;
@@ -97,18 +97,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# st.sidebar.button("Home")
-# st.sidebar.button("Analytics")
-# st.sidebar.button("Lookup")
-# st.sidebar.button("Untouched")
-
-
-
-# Use HTML inside markdown for the title
 st.markdown('<p class="font">Analytics page.</p>', unsafe_allow_html=True)
-
-# st.markdown('<p class="para">Tales of Heriatage.</p>', unsafe_allow_html=True)
-# st.markdown('<p class="main">Tales of Heriatage.</p>', unsafe_allow_html=True)
 
 st.text("")
 st.text("")
@@ -127,27 +116,16 @@ months = ["January", "February", "March", "April", "May", "June", "July", "Augus
 visitors_2023 = [8.91, 8.93, 8.25, 6.26, 6.18, 6.68, 7.86, 6.64, 6.67, 8.32, 9.49, 11.02]
 visitors_2024 = [9.59, 10.03, 8.6, 6.51, 6, 7.06, 7.76, 6.36, 0, 0, 0, 0]
 
-# Plasma colors for lines
-color_2023 = '#d01c8b'  # plasma magenta
-color_2024 = '#fdb863'  # plasma orange
+color_2023 = '#d01c8b'
+color_2024 = '#fdb863'
 
-# Set page config for dark background
-# st.set_page_config(page_title="Tourist Visitors Plot", layout="wide", initial_sidebar_state="auto")
-
-# Title
-# st.title("Monthly Foreign Tourist Visitors in India")
-
-# Create figure with black background
 fig, ax = plt.subplots(figsize=(12, 6))
-fig.patch.set_facecolor('black')      # Figure background
-ax.set_facecolor('black')              # Plot background
+fig.patch.set_facecolor('black')
+ax.set_facecolor('black')
 
-# Plot lines
 ax.plot(months, visitors_2023, marker='o', color=color_2023, label='2023')
 ax.plot(months, visitors_2024, marker='o', color=color_2024, label='2024')
 
-# Text colors to white
-# ax.set_title("Monthly Foreign Tourist Visitors in India (Millions)", color='white', fontsize=16)
 ax.set_xlabel("Month", color='white', fontsize=14)
 ax.set_ylabel("Visitors (Millions)", color='white', fontsize=14)
 
@@ -158,29 +136,26 @@ ax.legend(facecolor='black', edgecolor='white', fontsize=12)
 
 ax.grid(True, color='gray', linestyle='--', alpha=0.3)
 
-# Show plot in Streamlit
 st.pyplot(fig)
 
 #########################################################################################################
 
-with open('swdfvc.json', 'r') as f:
+with open('./Resource/swdfvc.json', 'r') as f:
     data_json = json.load(f)
 
 df = pd.DataFrame(data_json)
 df = df[df["State/ UT Name"] != "Total"]
 
-plt.style.use('dark_background')  # Sets plot background to black and grid/dark style
+plt.style.use('dark_background')
 
 def plot_visitors(visitor_type):
     fig, ax = plt.subplots(figsize=(14, 6))
     states = df["State/ UT Name"]
     n = len(states)
 
-    # Use plasma colormap for bars, 2 colors (for 2014 and 2015)
     cmap = get_cmap('plasma')
-    color_2014 = cmap(0.6)  # Bright plasma color for 2014
-    color_2015 = cmap(0.9)  # Another bright plasma color for 2015
-
+    color_2014 = cmap(0.6)  
+    color_2015 = cmap(0.9)  
     bar_width = 0.35
     indices = np.arange(n)
 
@@ -192,16 +167,13 @@ def plot_visitors(visitor_type):
     ax.set_ylabel('Visitor Count', color='white')
     ax.set_title(f'{visitor_type} Visitors in 2014 and 2015 by State/UT', color='white')
 
-    # Set tick params color to white
     ax.tick_params(axis='y', colors='white')
     ax.tick_params(axis='x', colors='white')
 
-    # Legend text color to white
     legend = ax.legend()
     for text in legend.get_texts():
         text.set_color('white')
 
-    # Set figure background and axes background to pitch black
     fig.patch.set_facecolor('black')
     ax.set_facecolor('black')
 
@@ -218,25 +190,20 @@ plot_visitors("Foreign")
 
 ############################################################################################################
 
-with open('swdfvc.json', 'r') as f:
+with open('./Resource/swdfvc.json', 'r') as f:
     data = json.load(f)
 df = pd.DataFrame(data)
 
-# Remove the "Total" row
 df = df[df['State/ UT Name'] != 'Total']
 
 def plot_growth_rate(vis_type):
-    # Choose column based on visitor type
     col_name = f"Growth Rate - {vis_type}"
 
     states = df['State/ UT Name']
     growth_rates = df[col_name].astype(float)
 
-    # Select colormap 'plasma', focusing on magenta range (0.6 to 0.9)
     cmap = get_cmap('plasma')
-    # magenta_pink_color = cmap(0.8)
-    # cmap = get_cmap('plasma')
-    colors = [cmap(0.9) for _ in growth_rates]  # fixed magenta-ish color
+    colors = [cmap(0.9) for _ in growth_rates]
 
     fig, ax = plt.subplots(figsize=(14, 7))
     fig.patch.set_facecolor('black')
@@ -250,7 +217,6 @@ def plot_growth_rate(vis_type):
     ax.tick_params(axis='x', rotation=90, colors='white')
     ax.tick_params(axis='y', colors='white')
 
-    # Grid lines with subtle white color
     ax.grid(True, color='gray', linestyle='--', linewidth=0.5, alpha=0.3)
 
     st.pyplot(fig)

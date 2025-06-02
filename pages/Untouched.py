@@ -69,7 +69,7 @@ st.markdown(
         height: 100vh;
         position: sticky;
         top: 0;
-        background-color: #000000;  /* 🎨 Your custom background color */
+        background-color: #000000;
         padding: 0px;
         color: white;
         # display: none;
@@ -120,7 +120,7 @@ st.text("")
 
 st.title("Untraceable Monuments and Sites in India")
 
-with open("untraceable.json", "r", encoding="utf-8") as f:
+with open("./Resource/untraceable.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)

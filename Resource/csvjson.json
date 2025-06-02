@@ -1,0 +1,397 @@
+[
+  {
+    "Name": "Agra Fort",
+    "Type": "UNESCO, Cultural, Fort",
+    "Counts": 2200000
+  },
+  {
+    "Name": "Ajanta Caves",
+    "Type": "UNESCO, Cultural, Heritage, Caves",
+    "Counts": 300000
+  },
+  {
+    "Name": "Ellora Caves",
+    "Type": "UNESCO, Cultural, Heritage, Caves",
+    "Counts": 500000
+  },
+  {
+    "Name": "Taj Mahal",
+    "Type": "UNESCO, Cultural, Monument",
+    "Counts": 6115000
+  },
+  {
+    "Name": "Mahabalipuram",
+    "Type": "UNESCO, Cultural, Monuments",
+    "Counts": 500000
+  },
+  {
+    "Name": "Sun Temple",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 400000
+  },
+  {
+    "Name": "Churches and Convents of Goa",
+    "Type": "UNESCO, Cultural, Religious",
+    "Counts": 700000
+  },
+  {
+    "Name": "Fatehpur Sikri",
+    "Type": "UNESCO, Cultural, Historical City",
+    "Counts": 1500000
+  },
+  {
+    "Name": "Group of Monuments at Hampi",
+    "Type": "UNESCO, Cultural, Heritage",
+    "Counts": 1000000
+  },
+  {
+    "Name": "Pattadakal",
+    "Type": "UNESCO, Cultural, Monuments",
+    "Counts": 200000
+  },
+  {
+    "Name": "Elephanta Caves",
+    "Type": "UNESCO, Cultural, Heritage, Caves",
+    "Counts": 350000
+  },
+  {
+    "Name": "Great Living Chola Temples",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 300000
+  },
+  {
+    "Name": "Khajuraho",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 400000
+  },
+  {
+    "Name": "Buddhist Monuments at Sanchi",
+    "Type": "UNESCO, Cultural, Religious",
+    "Counts": 150000
+  },
+  {
+    "Name": "Humayun's Tomb",
+    "Type": "UNESCO, Cultural, Tomb",
+    "Counts": 2000000
+  },
+  {
+    "Name": "Qutub Minar",
+    "Type": "UNESCO, Cultural, Monument",
+    "Counts": 3352000
+  },
+  {
+    "Name": "Mountain Railways",
+    "Type": "UNESCO, Cultural, Engineering",
+    "Counts": 0
+  },
+  {
+    "Name": "Mahabodhi Temple Complex",
+    "Type": "UNESCO, Cultural, Religious",
+    "Counts": 1200000
+  },
+  {
+    "Name": "Rock Shelters of Bhimbetka",
+    "Type": "UNESCO, Cultural, Heritage",
+    "Counts": 0
+  },
+  {
+    "Name": "Champaner-Pavagadh Archaeological Park",
+    "Type": "UNESCO, Cultural, Archaeological Site",
+    "Counts": 60000
+  },
+  {
+    "Name": "Red Fort Complex",
+    "Type": "UNESCO, Cultural, Fort",
+    "Counts": 4029000
+  },
+  {
+    "Name": "Jantar Mantar",
+    "Type": "UNESCO, Cultural, Observatory",
+    "Counts": 150000
+  },
+  {
+    "Name": "Hill Forts",
+    "Type": "UNESCO, Cultural, Forts",
+    "Counts": 0
+  },
+  {
+    "Name": "Rani-ki-Vav",
+    "Type": "UNESCO, Cultural, Stepwell",
+    "Counts": 120000
+  },
+  {
+    "Name": "Nalanda Mahavihara",
+    "Type": "UNESCO, Cultural, Educational Site",
+    "Counts": 50000
+  },
+  {
+    "Name": "Chandigarh",
+    "Type": "UNESCO, Cultural, Modern Architecture",
+    "Counts": 0
+  },
+  {
+    "Name": "Ahmedabad",
+    "Type": "UNESCO, Cultural, Urban Heritage",
+    "Counts": 0
+  },
+  {
+    "Name": "Art Deco Mumbai",
+    "Type": "UNESCO, Cultural, Architecture",
+    "Counts": 0
+  },
+  {
+    "Name": "Jaipur City",
+    "Type": "UNESCO, Cultural, Urban Heritage",
+    "Counts": 0
+  },
+  {
+    "Name": "Dholavira",
+    "Type": "UNESCO, Cultural, Archaeological Site",
+    "Counts": 40000
+  },
+  {
+    "Name": "Ramappa Temple",
+    "Type": "UNESCO, Cultural, Temple",
+    "Counts": 80000
+  },
+  {
+    "Name": "Santiniketan",
+    "Type": "UNESCO, Cultural, Educational & Cultural",
+    "Counts": 300000
+  },
+  {
+    "Name": "Kaziranga National Park",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 150000
+  },
+  {
+    "Name": "Keoladeo National Park",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 50000
+  },
+  {
+    "Name": "Manas Wildlife Sanctuary",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 40000
+  },
+  {
+    "Name": "Nanda Devi & Valley of Flowers NP",
+    "Type": "UNESCO, Natural, National Parks",
+    "Counts": 40000
+  },
+  {
+    "Name": "Sundarbans National Park",
+    "Type": "UNESCO, Natural, Wildlife Sanctuary",
+    "Counts": 50000
+  },
+  {
+    "Name": "Western Ghats",
+    "Type": "UNESCO, Natural, Biodiversity Hotspot",
+    "Counts": 0
+  },
+  {
+    "Name": "Great Himalayan National Park",
+    "Type": "UNESCO, Natural, National Park",
+    "Counts": 0
+  },
+  {
+    "Name": "Khangchendzonga National Park",
+    "Type": "UNESCO, Mixed",
+    "Counts": 0
+  },
+  {
+    "Name": "Golden Temple",
+    "Type": "Religious, Temple",
+    "Counts": 6000000
+  },
+  {
+    "Name": "Meenakshi Amman Temple",
+    "Type": "Religious, Temple",
+    "Counts": 3000000
+  },
+  {
+    "Name": "Kashi Vishwanath Temple",
+    "Type": "Religious, Temple",
+    "Counts": 3000000
+  },
+  {
+    "Name": "Jagannath Temple",
+    "Type": "Religious, Temple",
+    "Counts": 1200000
+  },
+  {
+    "Name": "Vaishno Devi Temple",
+    "Type": "Religious, Temple",
+    "Counts": 10000000
+  },
+  {
+    "Name": "Somnath Temple",
+    "Type": "Religious, Temple",
+    "Counts": 1000000
+  },
+  {
+    "Name": "Ramanathaswamy Temple",
+    "Type": "Religious, Temple",
+    "Counts": 3000000
+  },
+  {
+    "Name": "Akshardham Temple",
+    "Type": "Religious, Temple",
+    "Counts": 2500000
+  },
+  {
+    "Name": "Brihadeeswarar Temple",
+    "Type": "Religious, Temple",
+    "Counts": 800000
+  },
+  {
+    "Name": "Kedarnath and Badrinath",
+    "Type": "Religious, Temple",
+    "Counts": 1500000
+  },
+  {
+    "Name": "Amber Fort",
+    "Type": "Historical, Fort",
+    "Counts": 2000000
+  },
+  {
+    "Name": "Mehrangarh Fort",
+    "Type": "Historical, Fort",
+    "Counts": 1000000
+  },
+  {
+    "Name": "Gwalior Fort",
+    "Type": "Historical, Fort",
+    "Counts": 700000
+  },
+  {
+    "Name": "Golconda Fort",
+    "Type": "Historical, Fort",
+    "Counts": 1200000
+  },
+  {
+    "Name": "Mysore Palace",
+    "Type": "Historical, Palace",
+    "Counts": 2500000
+  },
+  {
+    "Name": "City Palace, Udaipur",
+    "Type": "Historical, Palace",
+    "Counts": 1000000
+  },
+  {
+    "Name": "Red Fort",
+    "Type": "Historical, Fort",
+    "Counts": 4029000
+  },
+  {
+    "Name": "Chittorgarh Fort",
+    "Type": "Historical, Fort",
+    "Counts": 800000
+  },
+  {
+    "Name": "Jaisalmer Fort",
+    "Type": "Historical, Fort",
+    "Counts": 500000
+  },
+  {
+    "Name": "Kumbhalgarh Fort",
+    "Type": "Historical, Fort",
+    "Counts": 400000
+  },
+  {
+    "Name": "Indian Museum",
+    "Type": "Museum",
+    "Counts": 200000
+  },
+  {
+    "Name": "National Museum",
+    "Type": "Museum",
+    "Counts": 300000
+  },
+  {
+    "Name": "Salar Jung Museum",
+    "Type": "Museum",
+    "Counts": 400000
+  },
+  {
+    "Name": "Chhatrapati Shivaji Maharaj Museum",
+    "Type": "Museum",
+    "Counts": 350000
+  },
+  {
+    "Name": "Government Museum",
+    "Type": "Museum",
+    "Counts": 250000
+  },
+  {
+    "Name": "Jim Corbett National Park",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 50000
+  },
+  {
+    "Name": "Ranthambore National Park",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 100000
+  },
+  {
+    "Name": "Bandhavgarh National Park",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 80000
+  },
+  {
+    "Name": "Periyar Wildlife Sanctuary",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 70000
+  },
+  {
+    "Name": "Sundarbans Mangrove Forest",
+    "Type": "Wildlife Sanctuary",
+    "Counts": 50000
+  },
+  {
+    "Name": "Valley of Flowers National Park",
+    "Type": "Natural, National Park",
+    "Counts": 40000
+  },
+  {
+    "Name": "Backwaters of Kerala",
+    "Type": "Natural, Waterbody",
+    "Counts": 0
+  },
+  {
+    "Name": "Himalayan Ranges",
+    "Type": "Natural, Mountain Range",
+    "Counts": 0
+  },
+  {
+    "Name": "Thar Desert",
+    "Type": "Natural, Desert",
+    "Counts": 0
+  },
+  {
+    "Name": "Lotus Temple",
+    "Type": "Modern, Temple",
+    "Counts": 4000000
+  },
+  {
+    "Name": "Bandra-Worli Sea Link",
+    "Type": "Modern, Infrastructure",
+    "Counts": 0
+  },
+  {
+    "Name": "Statue of Unity",
+    "Type": "Modern, Monument",
+    "Counts": 1500000
+  },
+  {
+    "Name": "Vidhana Soudha",
+    "Type": "Modern, Government Building",
+    "Counts": 0
+  },
+  {
+    "Name": "Cyber City, Gurugram",
+    "Type": "Modern, IT Hub",
+    "Counts": 0
+  }
+]

@@ -3,8 +3,6 @@ import streamlit as st
 import pydeck as pdk
 import pandas as pd
 
-
-# Display using Streamlit
 st.set_page_config(layout="wide")
 
 st.markdown(
@@ -51,7 +49,7 @@ st.markdown(
         height: 100vh;
         position: sticky;
         top: 0;
-        background-color: #000000;  /* 🎨 Your custom background color */
+        background-color: #000000;
         padding: 0px;
         color: white;
         # display: none;
@@ -95,37 +93,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# st.sidebar.button("Home")
-# st.sidebar.button("Analytics")
-# st.sidebar.button("Lookup")
-# st.sidebar.button("Untouched")
-
-
-
-# Use HTML inside markdown for the title
 st.markdown('<p class="font">Tales of Heriatage.</p>', unsafe_allow_html=True)
 st.text("")
-# st.markdown('<p class="para">Tales of Heriatage.</p>', unsafe_allow_html=True)
 st.markdown('<p class="main">In 2023, India received 18.89 million international tourists. This included 9.52 million foreign tourists, exceeding pre-pandemic levels by 87.09%, according to the Ministry of Tourism. Additionally, 9.38 million Non-Resident Indian (NRI) arrivals were recorded, also exceeding pre-pandemic levels.<br></p>', unsafe_allow_html=True)
 st.text("")
 st.text("")
 st.text("")
 
-# Load the JSON with coordinates
-with open("places_with_coordinates.json", "r", encoding="utf-8") as f:
+with open("./Resource/places_with_coordinates.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# Filter valid entries
 filtered = [d for d in data if d.get("latitude") and d.get("longitude")]
 
-# Convert to DataFrame
 df = pd.DataFrame(filtered)
 
-# Normalize height — elevation directly from Counts
-# You can tweak the scale multiplier (e.g., 0.001 or 0.005)
-df["elevation"] = df["Counts"] * 0.1  # tweak for visual appeal
+df["elevation"] = df["Counts"] * 0.1  
 
-# Color gradient by visitor count (optional enhancement)
 def get_color(count):
     if count == 0:
         return [220, 220, 220]
@@ -140,20 +123,20 @@ def get_color(count):
 
 df["color"] = df["Counts"].apply(get_color)
 
-# Define ColumnLayer for 3D rising bars
+
 layer = pdk.Layer(
     "ColumnLayer",
     data=df,
     get_position='[longitude, latitude]',
     get_elevation="elevation",
     elevation_scale=1,
-    radius=20000,  # in meters
+    radius=20000,  
     get_fill_color="color",
     pickable=True,
     auto_highlight=True,
 )
 
-# Center view over India
+
 view_state = pdk.ViewState(
     longitude=78.9629,
     latitude=22.5937,
@@ -167,7 +150,7 @@ st.title("🗺️ 3D Interactive Bar Map of Indian Landmarks by Visitor Count")
 st.pydeck_chart(pdk.Deck(
     layers=[layer],
     initial_view_state=view_state,
-    map_style='mapbox://styles/mapbox/dark-v10',  # clean background
+    map_style='mapbox://styles/mapbox/dark-v10',  
     tooltip={"text": "{Name}\nVisitors: {Counts}"}
 ))
 

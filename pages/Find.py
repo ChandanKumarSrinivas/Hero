@@ -44,7 +44,7 @@ st.markdown(
         height: 100vh;
         position: sticky;
         top: 0;
-        background-color: #000000;  /* 🎨 Your custom background color */
+        background-color: #000000;
         padding: 0px;
         color: white;
         # display: none;
@@ -88,15 +88,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# st.sidebar.button("Home")
-# st.sidebar.button("Analytics")
-# st.sidebar.button("Lookup")
-# st.sidebar.button("Untouched")
-
-
-
-# Use HTML inside markdown for the title
 st.markdown('<p class="font">Find places to visit.</p>', unsafe_allow_html=True)
 
-# st.markdown('<p class="para">Tales of Heriatage.</p>', unsafe_allow_html=True)
 st.markdown('<p class="main">Tales of Heriatage.</p>', unsafe_allow_html=True)
